@@ -1,5 +1,6 @@
 const { Tag } = require('../models');
 
+//tags for types of music and colors 
 const tagData = [
   {
     tag_name: 'rock music',
@@ -30,3 +31,4 @@ const tagData = [
 const seedTags = () => Tag.bulkCreate(tagData);
 
 module.exports = seedTags;
+//can be made available
